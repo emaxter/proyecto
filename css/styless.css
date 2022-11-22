@@ -1,0 +1,126 @@
+/*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilos generales*/
+
+body{
+    background-color: #ffb238;
+    background-image: url(../img/fondo.webp);
+}
+/* estilos del menu */
+   
+.header-color{
+    background-color: #d43b2d;
+    font-family: 'Roboto', sans-serif;
+}
+.menu-color{
+    background-color: #d43b2d;
+}
+
+header nav div a:hover{
+    background-color: #ff7d10;
+    transform: scale(0.8);
+    box-shadow: 2px 2px 5px #0a0310;
+}
+/*estilos en el main*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+}
+
+.beneficio{
+    text-align: center;
+}
+
+main h2{
+    text-decoration-color: #0a0310;
+    text-align: center;
+    padding: 1rem;
+}
+main p{
+    text-decoration-color: #0a0310;
+    text-align: center;
+    padding: 1rem;
+}
+main img{    
+    width: 50%;
+}
+
+/*contacto*/
+
+.contacto{
+   display: inline-flex;
+   text-align: center;   
+}
+.face{
+    
+    width: 30%;
+}
+
+.insta{
+    width: 300px;
+    height: 400px;
+}
+
+.whatssap{
+    width: 100%;
+    height: 50%;
+}
+.text-w{
+    text-align: end;
+    color: #0a0310;
+    font-weight: bold;
+}
+
+/*main en producto */
+
+.miel{
+    width: 30%;
+}
+
+.img-productos-tamano{
+    width: 300px;
+    height: 400px;
+}
+
+.cera{
+    width: 300px;
+    height: 300px;
+}
+
+/*estilos en el footer*/
+footer{
+    background-color: #ffb238;
+    padding: 20px 50px 20px 0px ;
+}
+
+footer p{
+    text-decoration-color: #0a0310;
+    font-weight: bold;
+    text-align: right;
+}
+footer p a{
+    text-decoration: none;
+    color: #0a0310;
+}
+/*estilo de tabla*/
+
+.trabajador{
+    padding: 6rem;
+    width: 70%;
+    height: 100%;
+}
+
+.text-empleo{
+    text-align: center;
+    color: #0a0310;
+    font-weight: bold;
+}
